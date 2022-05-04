@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sv_margin_bottom">64dp</dimen>
+    <dimen name="iv_mentor_margin_top">32dp</dimen>
+    <dimen name="tv_name_margin_top">8dp</dimen>
+    <dimen name="tv_name_text_size">24sp</dimen>
+    <dimen name="tv_company_margin_top">8dp</dimen>
+    <dimen name="tv_company_drawable_padding">4dp</dimen>
+    <dimen name="tv_location_margin_top">8dp</dimen>
+    <dimen name="tv_location_drawable_padding">4dp</dimen>
+    <dimen name="tv_followers_label_margin_start">8dp</dimen>
+    <dimen name="tv_followers_label_margin_top">16dp</dimen>
+    <dimen name="tv_followers_text_size">18sp</dimen>
+    <dimen name="tv_following_label_margin_top">16dp</dimen>
+    <dimen name="tv_following_label_margin_end">8dp</dimen>
+    <dimen name="tv_following_text_size">18sp</dimen>
+    <dimen name="btn_prev_size">48dp</dimen>
+    <dimen name="btn_next_size">48dp</dimen>
+    <dimen name="btn_next_margin_top">16dp</dimen>
+    <dimen name="tv_date_text_size">18sp</dimen>
+    <dimen name="rv_time_slots_padding_h">8dp</dimen>
+    <dimen name="item_time_slot_margin">8dp</dimen>
+    <dimen name="item_time_slot_corner_radius">4dp</dimen>
+    <dimen name="item_time_slot_padding">8dp</dimen>
+    <dimen name="item_time_slot_text_size">18sp</dimen>
+    <dimen name="profile_pic_size">128dp</dimen>
+</resources>

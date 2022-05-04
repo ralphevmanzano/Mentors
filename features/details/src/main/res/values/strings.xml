@@ -1,0 +1,11 @@
+<resources>
+    <string name="login_label">\@%1$s</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="book">Book</string>
+    <string name="successfully_booked">Successfully booked!</string>
+    <string name="successfully_booked_message">You have successfully an booked appointment with your mentor on %1$s, thank you.</string>
+    <string name="next_date_button">Next date button</string>
+    <string name="previous_date_button">Previous date button</string>
+    <string name="profile_picture">Profile picture</string>
+</resources>

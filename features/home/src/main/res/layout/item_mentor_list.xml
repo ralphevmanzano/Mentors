@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/item_mentor_padding_h"
+    android:layout_marginVertical="@dimen/item_mentor_padding_v"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    android:stateListAnimator="@animator/list_animator"
+    app:cardCornerRadius="@dimen/item_mentor_corner_radius"
+    app:cardElevation="@dimen/item_mentor_card_elevation">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_primary"
+        android:padding="@dimen/item_mentor_padding">
+
+        <ImageView
+            android:id="@+id/ivMentor"
+            android:layout_width="@dimen/iv_mentor_size"
+            android:layout_height="@dimen/iv_mentor_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/tv_login_margin_start"
+            android:fontFamily="@font/archivonarrow_bold"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tv_login_text_size"
+            app:layout_constraintBottom_toTopOf="@+id/tvUrl"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@id/ivMentor"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvUrl"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/tv_url_margin_start"
+            android:fontFamily="@font/archivonarrow"
+            android:textColor="@color/color_url"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@id/ivMentor"
+            app:layout_constraintTop_toBottomOf="@+id/tvLogin" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

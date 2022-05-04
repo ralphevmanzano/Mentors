@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="home_toolbar_padding_top">8dp</dimen>
+    <dimen name="tv_url_margin_start">8dp</dimen>
+    <dimen name="tv_login_text_size">20sp</dimen>
+    <dimen name="tv_login_margin_start">8dp</dimen>
+    <dimen name="iv_mentor_size">52dp</dimen>
+    <dimen name="card_padding">8dp</dimen>
+    <dimen name="rv_mentors_padding_bottom">8dp</dimen>
+    <dimen name="item_mentor_padding_h">16dp</dimen>
+    <dimen name="item_mentor_padding_v">8dp</dimen>
+    <dimen name="item_mentor_corner_radius">8dp</dimen>
+    <dimen name="item_mentor_card_elevation">12dp</dimen>
+    <dimen name="item_mentor_padding">8dp</dimen>
+</resources>
